@@ -1,0 +1,14 @@
+1.Escriba una función ordena que reciba como parámetros tres números enteros 
+distintos a, b y c , y los modifique e intercambie internamente de modo que 
+al finalizar la ejecución de la función se cumpla que los contenidos de a, b, c 
+sean tales que a<b<c. Las variables a, b y c utilizadas No deben ser globales.(3pts)
+
+2.Escriba una función dado_aleatorio  que reciba como parámetro un número entero 
+n que representa una de las posibles caras de un dado (1≤n≤6) y simule la cantidad 
+de veces que se lanza el dado (aleatoriamente) hasta que se obtenga el número n. (3pts)
+
+3. Escriba un programa que muestre por pantalla el resultado de la suma S de los 
+términos de una progresión geométrica, de primer término a y razón r, con valores 
+de i desde 0 hasta n. El programa debe solicitar al usuario los valores de 
+a, n y r, y validar que r sea diferente de 1. (4pts)
+
