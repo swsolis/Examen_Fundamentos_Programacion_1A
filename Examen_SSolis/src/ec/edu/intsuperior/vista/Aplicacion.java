@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class Aplicacion {
 
     public static void main(String[] args) {
-        comprobarCedula();
+        menu();
     }
 
     public static void comprobarCedula() {
@@ -52,6 +52,29 @@ public class Aplicacion {
             System.out.println("NO Es una cedula valida ");
         }
 
+    }
+    
+    public static void menu(){
+        Scanner leer = new Scanner(System.in);
+        int op=0;
+        do {         
+            System.out.println("\n\nIngrese una opción\n"
+                    + "*****************************\n\n"
+                    + "1.- comprobación de la cédula ecuatoriana\n"
+                    + "2.- palindromo\n"
+                    + "..............\n"
+                    + "0.- para salir");
+            op=leer.nextInt();
+            switch(op){
+                case 1:
+                    comprobarCedula();
+                    break;
+                case 2:
+                    break;
+                    
+            }
+            
+        } while (op!=0);
     }
 
 }
